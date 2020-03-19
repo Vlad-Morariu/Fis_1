@@ -21,4 +21,8 @@ public class ProcesorCompus implements Procesor {
 
         return res;
     }
+
+    public void modificare(){
+        System.out.println("Aceasta este o modificare necreativa");
+    }
 }
