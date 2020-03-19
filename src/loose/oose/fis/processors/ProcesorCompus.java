@@ -22,7 +22,12 @@ public class ProcesorCompus implements Procesor {
         return res;
     }
 
-    public int altaModificare(){
+
+    public void altaModificare(){
         System.out.println("Tot o modificare");
+
+    public void modificare(){
+        System.out.println("Aceasta este o modificare necreativa");
+
     }
 }
