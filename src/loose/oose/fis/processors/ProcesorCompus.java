@@ -21,4 +21,8 @@ public class ProcesorCompus implements Procesor {
 
         return res;
     }
+
+    public int altaModificare(){
+        System.out.println("Tot o modificare");
+    }
 }
